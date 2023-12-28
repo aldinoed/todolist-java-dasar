@@ -71,7 +71,7 @@ public class ToDoList {
             var temp = model;
             model = new String[model.length * 2];
 
-            for(int i = 0; i < temp1.length; i++){
+            for(int i = 0; i < temp.length; i++){
                 model[i] = temp[i];
             }
         }
